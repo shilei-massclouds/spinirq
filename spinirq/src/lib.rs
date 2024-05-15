@@ -12,7 +12,7 @@
 
 mod base;
 
-use kernel_guard_base::{NoOp, IrqSave};
+use kernel_guard::{NoOp, IrqSave};
 
 pub use self::base::{BaseSpinLock, BaseSpinLockGuard};
 
